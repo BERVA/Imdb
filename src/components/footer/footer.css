@@ -1,0 +1,14 @@
+.footer--container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width: 100vw;
+  min-height: 100px;
+  background-color: #000;
+}
+
+.footer--container > div {
+  flex: 1;
+}

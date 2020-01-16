@@ -1,0 +1,41 @@
+.hero--container {
+  min-height: 60vh;
+  height: 60vh;
+  max-height: 60vh;
+  width: 100vw;
+  background: #f7f7f7;
+  color: #080404;
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero--latest--movies {
+  display: grid;
+  height: inherit;
+  grid-template-rows: 50px repeat(3, 1fr) 40px;
+  border-left: 1px solid #f5c517;
+}
+.latest--movie {
+  overflow: hidden;
+}
+.latest--movie img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero--latest--moviess-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

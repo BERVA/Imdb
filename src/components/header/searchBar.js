@@ -3,12 +3,6 @@ import React, { useState } from "react";
 function SearchBar() {
   const [searchBarVal, setSearchBarVal] = useState("");
 
-  const inputChanged = event => {
-    this.setState({
-      search: event.target.value
-    });
-  };
-
   return (
     <div className="searchBar--container">
       <input
@@ -31,14 +25,14 @@ function SearchBar() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M12.442 12.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
-            clip-rule="evenodd"
+            clipRule="evenodd"
           ></path>
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M8.5 14a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM15 8.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
-            clip-rule="evenodd"
+            clipRule="evenodd"
           ></path>
         </svg>
       </button>
