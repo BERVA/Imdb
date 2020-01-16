@@ -23,6 +23,9 @@ function Hero() {
         <div className="latest--movie">
           <img src={imgUrl} alt="" />
         </div>
+        <div className="hero--latest--movies--control">
+          <button type="button">View All</button>
+        </div>
       </div>
     </section>
   );
