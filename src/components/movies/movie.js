@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from "react";
 
-function Movie() {
-  const [title, setTitle] = useState("Avengers EndGame");
+function Movie(props) {
+ 
 
-  const imgUrl =
-    "https://cdn.collider.com/wp-content/uploads/2019/03/avengers-endgame-poster.jpg";
 
   return (
     <div className="card movie">
       <div className="movie--poster">
-        <img src={imgUrl} alt="" />
+        <img src={props.src} alt="" />
       </div>
-      <div className="movie--title">{title}</div>
+      <div className="movie--title">{props.movieTitle}</div>
     </div>
   );
 }
