@@ -9,7 +9,7 @@ function Movie(props) {
       <div className="movie--poster">
         <img src={props.src} alt="" />
       </div>
-      <div className="movie--title">{props.movieTitle}</div>
+      <div className="movie--title"><h3>{props.movieTitle}</h3></div>
     </div>
   );
 }

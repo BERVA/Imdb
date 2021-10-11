@@ -1,14 +1,16 @@
+
 .footer--container {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  width: 100vw;
-  min-height: 100px;
-  background-color: #000;
+  justify-content: space-evenly;
+  margin: 50px 0;
+
 }
 
-.footer--container > div {
-  flex: 1;
+.footer--container > div > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

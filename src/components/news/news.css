@@ -1,0 +1,55 @@
+.news-container{
+    margin: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.news-container > h4 {
+    width: 100%;
+    color: #fff;
+    position: relative;
+    padding-left: 6px;
+    margin-bottom: 20px;
+}
+
+.news-container > h4:before{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: #f4c518;
+    content: "";
+    top: 0;
+    left: 0;
+}
+
+.news{
+    flex: 1;
+    display: flex;
+    padding-right: 20px;
+}
+
+
+.news .media{
+    width: 30%;
+    display: block;
+}
+
+.news .media img{
+    width: 100%;
+}
+
+.news .content{
+    width: 70%;
+    padding: 10px;
+}
+
+.news .content .headline{
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.news .content .source{
+    font-size: 14px;
+    color: #e5e5e5;
+}

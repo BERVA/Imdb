@@ -5,7 +5,7 @@ function User() {
   const userSurName = "Cesim";
   return (
     <div>
-      <h5>
+      <h5 className="userName">
         {userName} {userSurName}
       </h5>
     </div>

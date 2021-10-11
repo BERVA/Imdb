@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="header">
       <div>
-        <h1>IMDB</h1>
+        <h1 className="logo">IMDB</h1>
       </div>
       <SearchBar />
       <WatchList />

@@ -1,7 +1,20 @@
-.movies--list {
+
+
+.movie-section{
   margin-top: 10px;
+  padding: 60px;
+}
+
+.movie-section > h3{
+  color: #f4c518;
+  margin-bottom: 20px;
+}
+
+
+
+.movies--list {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 10px;
   height: calc(100vh - 270px);
@@ -31,4 +44,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.movie--title h3{
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
 }
